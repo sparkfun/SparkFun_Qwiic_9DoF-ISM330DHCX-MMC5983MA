@@ -24587,8 +24587,8 @@ VDDIO Range: 2.8V - 3.6V</text>
 </instance>
 <instance part="LOGO3" gate="G$1" x="373.38" y="33.02" smashed="yes"/>
 <instance part="JP3" gate="J1" x="40.64" y="76.2" smashed="yes" rot="MR180">
-<attribute name="VALUE" x="35.56" y="86.36" size="1.778" layer="96" font="vector" rot="MR180"/>
-<attribute name="NAME" x="35.56" y="65.278" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="35.56" y="83.82" size="1.778" layer="96" font="vector" rot="MR180"/>
+<attribute name="NAME" x="35.56" y="67.818" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 <instance part="J1" gate="G$1" x="93.98" y="81.28" smashed="yes">
 <attribute name="VALUE" x="73.66" y="75.946" size="1.778" layer="96" font="vector" align="top-left"/>
@@ -24922,7 +24922,7 @@ VDDIO Range: 2.8V - 3.6V</text>
 <wire x1="358.14" y1="215.9" x2="358.14" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="ISM_SCL" class="0">
+<net name="MAG_SCL" class="0">
 <segment>
 <wire x1="88.9" y1="213.36" x2="93.98" y2="213.36" width="0.1524" layer="91"/>
 <label x="93.98" y="213.36" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -24967,7 +24967,7 @@ VDDIO Range: 2.8V - 3.6V</text>
 <label x="93.98" y="223.52" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="ISM_SDA" class="0">
+<net name="MAG_SDA" class="0">
 <segment>
 <wire x1="88.9" y1="215.9" x2="93.98" y2="215.9" width="0.1524" layer="91"/>
 <label x="93.98" y="215.9" size="1.27" layer="95" font="vector" xref="yes"/>
