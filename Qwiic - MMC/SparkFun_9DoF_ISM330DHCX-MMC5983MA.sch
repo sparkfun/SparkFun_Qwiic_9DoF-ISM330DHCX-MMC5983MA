@@ -24476,19 +24476,19 @@ LED.</text>
 <wire x1="370.84" y1="210.82" x2="370.84" y2="205.74" width="0.2032" layer="97"/>
 <wire x1="370.84" y1="205.74" x2="370.84" y2="198.12" width="0.2032" layer="97"/>
 <wire x1="370.84" y1="198.12" x2="378.46" y2="198.12" width="0.2032" layer="97"/>
-<wire x1="378.46" y1="198.12" x2="393.7" y2="198.12" width="0.2032" layer="97"/>
-<wire x1="393.7" y1="198.12" x2="393.7" y2="205.74" width="0.2032" layer="97"/>
-<wire x1="393.7" y1="205.74" x2="393.7" y2="210.82" width="0.2032" layer="97"/>
-<wire x1="393.7" y1="210.82" x2="393.7" y2="215.9" width="0.2032" layer="97"/>
-<wire x1="393.7" y1="215.9" x2="393.7" y2="220.98" width="0.2032" layer="97"/>
-<wire x1="393.7" y1="220.98" x2="370.84" y2="220.98" width="0.2032" layer="97"/>
+<wire x1="378.46" y1="198.12" x2="403.86" y2="198.12" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="198.12" x2="403.86" y2="205.74" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="205.74" x2="403.86" y2="210.82" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="210.82" x2="403.86" y2="215.9" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="215.9" x2="403.86" y2="220.98" width="0.2032" layer="97"/>
+<wire x1="403.86" y1="220.98" x2="370.84" y2="220.98" width="0.2032" layer="97"/>
 <wire x1="370.84" y1="215.9" x2="378.46" y2="215.9" width="0.2032" layer="97"/>
-<wire x1="378.46" y1="215.9" x2="393.7" y2="215.9" width="0.2032" layer="97"/>
+<wire x1="378.46" y1="215.9" x2="403.86" y2="215.9" width="0.2032" layer="97"/>
 <wire x1="378.46" y1="215.9" x2="378.46" y2="210.82" width="0.2032" layer="97"/>
 <wire x1="378.46" y1="210.82" x2="378.46" y2="205.74" width="0.2032" layer="97"/>
 <wire x1="378.46" y1="205.74" x2="378.46" y2="198.12" width="0.2032" layer="97"/>
-<wire x1="378.46" y1="210.82" x2="393.7" y2="210.82" width="0.2032" layer="97"/>
-<wire x1="378.46" y1="205.74" x2="393.7" y2="205.74" width="0.2032" layer="97"/>
+<wire x1="378.46" y1="210.82" x2="403.86" y2="210.82" width="0.2032" layer="97"/>
+<wire x1="378.46" y1="205.74" x2="403.86" y2="205.74" width="0.2032" layer="97"/>
 <wire x1="378.46" y1="210.82" x2="370.84" y2="210.82" width="0.2032" layer="97"/>
 <wire x1="370.84" y1="205.74" x2="378.46" y2="205.74" width="0.2032" layer="97"/>
 <text x="372.364" y="212.344" size="1.778" layer="97" font="vector">VDD</text>
@@ -24517,6 +24517,7 @@ VDDIO Range: 2.8V - 3.6V</text>
 <text x="358.14" y="271.78" size="2.54" layer="94" font="vector" align="center">Accelerometer Address Selection Jumpers</text>
 <text x="215.9" y="139.7" size="2.54" layer="94" font="vector" align="center">I2C and LED Jumpers</text>
 <text x="216.916" y="257.048" size="1.27" layer="97" font="vector" align="center">I2C address: 0x30</text>
+<text x="389.636" y="212.598" size="1.778" layer="97" font="vector">(Default)</text>
 </plain>
 <instances>
 <instance part="GND4" gate="1" x="55.88" y="198.12" smashed="yes">
@@ -24533,7 +24534,7 @@ VDDIO Range: 2.8V - 3.6V</text>
 <attribute name="VALUE" x="29.464" y="213.741" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="6DOF_ADDR" gate="G$1" x="358.14" y="223.52" smashed="yes" rot="MR180">
-<attribute name="NAME" x="374.904" y="219.075" size="1.778" layer="95" font="vector" rot="MR180"/>
+<attribute name="NAME" x="379.984" y="219.075" size="1.778" layer="95" font="vector" rot="MR180"/>
 </instance>
 <instance part="GND6" gate="1" x="358.14" y="200.66" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="360.68" y="198.12" size="1.778" layer="96" font="vector" rot="MR0"/>
@@ -24922,7 +24923,7 @@ VDDIO Range: 2.8V - 3.6V</text>
 <wire x1="358.14" y1="215.9" x2="358.14" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="MAG_SCL" class="0">
+<net name="AUX_SCL" class="0">
 <segment>
 <wire x1="88.9" y1="213.36" x2="93.98" y2="213.36" width="0.1524" layer="91"/>
 <label x="93.98" y="213.36" size="1.27" layer="95" font="vector" xref="yes"/>
@@ -24967,7 +24968,7 @@ VDDIO Range: 2.8V - 3.6V</text>
 <label x="93.98" y="223.52" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
-<net name="MAG_SDA" class="0">
+<net name="AUX_SDA" class="0">
 <segment>
 <wire x1="88.9" y1="215.9" x2="93.98" y2="215.9" width="0.1524" layer="91"/>
 <label x="93.98" y="215.9" size="1.27" layer="95" font="vector" xref="yes"/>
