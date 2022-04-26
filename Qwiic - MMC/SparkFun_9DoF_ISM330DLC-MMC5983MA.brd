@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="dots" multiple="1" display="yes" altdistance="0.002" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -47,7 +47,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -8688,7 +8688,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <via x="10.287" y="12.446" extent="1-16" drill="0.3048"/>
 <via x="10.287" y="13.97" extent="1-16" drill="0.3048"/>
 <via x="15.494" y="12.954" extent="1-16" drill="0.3048"/>
-<wire x1="11.954" y1="14.328" x2="11.596" y2="13.97" width="0.2032" layer="1"/>
 <wire x1="12.954" y1="15.385" x2="12.9484" y2="15.3794" width="0.2032" layer="1"/>
 <wire x1="12.9484" y1="15.3794" x2="12.9484" y2="15.0582125" width="0.2032" layer="1"/>
 <wire x1="12.9484" y1="15.0582125" x2="13.2752125" y2="14.7314" width="0.2032" layer="1"/>
@@ -8964,8 +8963,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <contactref element="R2" pad="1"/>
 <contactref element="J2" pad="3"/>
 <contactref element="U1" pad="P14"/>
-<wire x1="15.24635" y1="7.327" x2="13.66735" y2="8.906" width="0.2032" layer="1"/>
-<wire x1="13.2" y1="8.906" x2="13.66735" y2="8.906" width="0.2032" layer="1"/>
+<wire x1="15.24635" y1="7.327" x2="14.23035" y2="7.327" width="0.2032" layer="1"/>
+<wire x1="14.23035" y1="7.327" x2="13.21015" y2="8.3472" width="0.2032" layer="1"/>
+<wire x1="13.2" y1="8.906" x2="13.21015" y2="8.89585" width="0.2032" layer="1"/>
+<wire x1="13.21015" y1="8.89585" x2="13.21015" y2="8.3472" width="0.2032" layer="1"/>
 <wire x1="16.77035" y1="7.2" x2="16.256" y2="7.2" width="0.2032" layer="1"/>
 <wire x1="16.256" y1="7.2" x2="15.37335" y2="7.2" width="0.2032" layer="1"/>
 <wire x1="15.24635" y1="7.327" x2="15.37335" y2="7.2" width="0.2032" layer="1"/>
