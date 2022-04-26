@@ -24460,7 +24460,7 @@ accelerometer and 3D digital gyroscope.&lt;/p&gt;</description>
 <text x="71.882" y="271.78" size="2.54" layer="94" font="vector" align="center">Accelerometer - ISM330DLC</text>
 <text x="216.916" y="103.632" size="1.778" layer="97" font="vector" align="top-left">Cut traces to remove I2C
 pull-up resistors.</text>
-<text x="55.88" y="190.5" size="1.778" layer="97" font="vector" align="top-left">ISM330DHCX should default to 
+<text x="55.88" y="190.5" size="1.778" layer="97" font="vector" align="top-left">ISM330DLC should default to 
 MODE2 (Sensor Hub Mode) to receive
 MMC5938MA sensor data. 
 </text>
