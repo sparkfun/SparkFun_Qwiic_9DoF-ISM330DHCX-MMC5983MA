@@ -23460,7 +23460,7 @@ accelerometer and 3D digital gyroscope tailored for Industry 4.0 applications.&l
 pull-up resistors.</text>
 <text x="58.166" y="264.414" size="1.27" layer="97" font="vector">VDD Range: 1.71V - 3.6V
 VDDIO Range: 1.62V - 3.6V</text>
-<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v02</text>
 <text x="170.18" y="68.58" size="1.778" layer="97" font="vector">Cut trace to
 disconnect Power
 LED.</text>
