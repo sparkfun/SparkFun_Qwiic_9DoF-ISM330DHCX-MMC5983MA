@@ -23048,6 +23048,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="0.635" y1="0" x2="0.15875" y2="0.47625" width="0.2032" layer="51"/>
 <wire x1="0.635" y1="0" x2="0.15875" y2="-0.47625" width="0.2032" layer="51"/>
 </package>
+<package name="LED-0402">
+<description>&lt;h3&gt;LED-0402&lt;/h3&gt;
+&lt;p&gt;
+Standard 0402 sized pads with cathode pin indicator.
+&lt;/p&gt;</description>
+<smd name="A" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="C" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="0" y="0.562" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.562" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="-0.5" y1="-0.25" x2="-0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.25" x2="0.5" y2="0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.25" x2="0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="-0.25" x2="-0.5" y2="-0.25" width="0.002540625" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.3" y2="0.25" layer="51"/>
+<rectangle x1="0.3" y1="-0.25" x2="0.5" y2="0.25" layer="51" rot="R180"/>
+<wire x1="0.9262" y1="0.4262" x2="-0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="0.4262" x2="-0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="-0.9262" y1="-0.4262" x2="0.9262" y2="-0.4262" width="0.05" layer="39"/>
+<wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
+<wire x1="1.27" y1="0.381" x2="1.27" y2="-0.381" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -23155,6 +23176,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technology>
 </technologies>
 </device>
+<device name="_0402" package="LED-0402">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-16757" constant="no"/>
+<attribute name="VALUE" value="RED" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -23227,22 +23260,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>&lt;H3&gt;High performance magnetic sensor&lt;/H3&gt;
 
 ±8 Gauss, High Performance 3-axis Magnetic Sensor</description>
-<pin name="NC" x="-2.54" y="5.08" length="short" direction="nc"/>
-<pin name="GND" x="-2.54" y="2.54" length="short" direction="pwr"/>
-<pin name="VDD" x="-2.54" y="10.16" length="short" direction="pwr"/>
-<pin name="SCL/SCK" x="22.86" y="10.16" length="short" rot="R180"/>
-<pin name="SDA/SDI" x="22.86" y="12.7" length="short" rot="R180"/>
-<pin name="VDDIO" x="-2.54" y="12.7" length="short" direction="pwr"/>
-<pin name="SDO" x="22.86" y="7.62" length="short" direction="out" rot="R180"/>
-<pin name="CAP" x="-2.54" y="7.62" length="short" direction="pas"/>
-<wire x1="0" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
-<wire x1="20.32" y1="0" x2="20.32" y2="15.24" width="0.254" layer="94"/>
-<wire x1="20.32" y1="15.24" x2="0" y2="15.24" width="0.254" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="0" width="0.254" layer="94"/>
-<text x="0" y="16.51" size="1.778" layer="95">&gt;NAME</text>
-<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="!SPI_CS!" x="22.86" y="5.08" length="short" direction="in" rot="R180"/>
-<pin name="INT" x="22.86" y="2.54" length="short" direction="out" rot="R180"/>
+<pin name="NC" x="-12.7" y="-2.54" length="short" direction="nc"/>
+<pin name="GND" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="VDD" x="-12.7" y="2.54" length="short" direction="pwr"/>
+<pin name="SCL/SCK" x="15.24" y="2.54" length="short" rot="R180"/>
+<pin name="SDA/SDI" x="15.24" y="5.08" length="short" rot="R180"/>
+<pin name="VDDIO" x="-12.7" y="5.08" length="short" direction="pwr"/>
+<pin name="SDO" x="15.24" y="0" length="short" direction="out" rot="R180"/>
+<pin name="CAP" x="-12.7" y="0" length="short" direction="pas"/>
+<wire x1="-10.16" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<text x="-10.16" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="!SPI_CS!" x="15.24" y="-2.54" length="short" direction="in" rot="R180"/>
+<pin name="INT" x="15.24" y="-5.08" length="short" direction="out" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -23458,9 +23491,9 @@ accelerometer and 3D digital gyroscope tailored for Industry 4.0 applications.&l
 <text x="71.882" y="271.78" size="2.54" layer="94" font="vector" align="center">Accelerometer - ISM330DHCX</text>
 <text x="216.916" y="103.632" size="1.778" layer="97" font="vector" align="top-left">Cut traces to remove I2C
 pull-up resistors.</text>
-<text x="58.166" y="264.414" size="1.27" layer="97" font="vector">VDD Range: 1.71V - 3.6V
+<text x="53.086" y="259.334" size="1.778" layer="97" font="vector">VDD Range: 1.71V - 3.6V
 VDDIO Range: 1.62V - 3.6V</text>
-<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v02</text>
+<text x="421.64" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="170.18" y="68.58" size="1.778" layer="97" font="vector">Cut trace to
 disconnect Power
 LED.</text>
@@ -23499,7 +23532,7 @@ SPI</text>
 <wire x1="186.944" y1="229.362" x2="186.944" y2="227.838" width="0.2032" layer="97" style="dashdot"/>
 <wire x1="187.96" y1="228.6" x2="186.944" y2="227.838" width="0.2032" layer="97" style="dashdot"/>
 <text x="350.774" y="11.176" size="2.54" layer="94" font="vector">Elias Santistevan</text>
-<text x="315.722" y="257.556" size="1.27" layer="97" font="vector">VDD Range: 2.8V - 3.6V
+<text x="313.182" y="260.096" size="1.778" layer="97" font="vector">VDD Range: 2.8V - 3.6V
 VDDIO Range: 2.8V - 3.6V</text>
 <wire x1="0" y1="152.4" x2="137.16" y2="152.4" width="0.2032" layer="97" style="longdash"/>
 <wire x1="137.16" y1="152.4" x2="238.76" y2="152.4" width="0.2032" layer="97" style="longdash"/>
@@ -23511,9 +23544,9 @@ VDDIO Range: 2.8V - 3.6V</text>
 <text x="187.198" y="271.018" size="2.54" layer="94" font="vector" align="center">Accelerometer Address Selection and 
 Sensor Hub Jumpers</text>
 <text x="190.5" y="142.24" size="2.54" layer="94" font="vector" align="center">I2C and LED Jumpers</text>
-<text x="328.676" y="251.968" size="1.27" layer="97" font="vector" align="center">I2C address: 0x30</text>
+<text x="331.216" y="254.508" size="1.778" layer="97" font="vector" align="center">I2C address: 0x30</text>
 <text x="209.296" y="222.758" size="1.778" layer="97" font="vector">(Default)</text>
-<text x="50.8" y="259.08" size="1.27" layer="97" font="vector">I2C Address (selectable): 0x6B (Default)</text>
+<text x="43.18" y="254" size="1.778" layer="97" font="vector">I2C Address (selectable): 0x6B (Default)</text>
 <text x="48.26" y="182.88" size="1.778" layer="97" font="vector" align="top-left">ISM330DHCX MODES
 MODE1:  Perhipheral-only mode
    I2C or SPI
@@ -23522,6 +23555,8 @@ MODE2:  Sensor Hub mode
 </text>
 <text x="208.28" y="162.306" size="1.778" layer="97" font="vector" rot="R180" align="top-left">If using Mode 2 (Sensor Hub Mode), 
 cut both traces. </text>
+<text x="185.42" y="200.66" size="1.778" layer="97" font="vector">Magnetometer address unaffected,
+no alternate address available. </text>
 </plain>
 <instances>
 <instance part="GND4" gate="1" x="55.88" y="198.12" smashed="yes">
@@ -23653,15 +23688,15 @@ cut both traces. </text>
 <attribute name="DESIGNER" x="353.314" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="419.1" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="U2" gate="G$1" x="317.5" y="200.66" smashed="yes">
+<instance part="U2" gate="G$1" x="325.12" y="208.28" smashed="yes">
 <attribute name="NAME" x="317.5" y="217.17" size="1.778" layer="95"/>
-<attribute name="VALUE" x="317.5" y="198.12" size="1.778" layer="96"/>
+<attribute name="VALUE" x="314.96" y="198.12" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY7" gate="G$1" x="294.64" y="215.9" smashed="yes">
 <attribute name="VALUE" x="294.64" y="218.694" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND1" gate="1" x="312.42" y="193.04" smashed="yes">
-<attribute name="VALUE" x="312.42" y="192.786" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="309.88" y="193.04" smashed="yes">
+<attribute name="VALUE" x="309.88" y="192.786" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="C1" gate="G$1" x="294.64" y="200.66" smashed="yes">
 <attribute name="NAME" x="291.084" y="203.581" size="1.778" layer="95" font="vector"/>
@@ -23749,9 +23784,9 @@ cut both traces. </text>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="312.42" y1="203.2" x2="312.42" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="203.2" x2="309.88" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="203.2" x2="309.88" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="312.42" y1="203.2" x2="314.96" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -23900,9 +23935,9 @@ cut both traces. </text>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 <wire x1="294.64" y1="215.9" x2="294.64" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VDDIO"/>
-<wire x1="294.64" y1="213.36" x2="314.96" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="294.64" y1="213.36" x2="312.42" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VDD"/>
-<wire x1="314.96" y1="210.82" x2="294.64" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="210.82" x2="294.64" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="210.82" x2="294.64" y2="213.36" width="0.1524" layer="91"/>
 <junction x="294.64" y="213.36"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -24025,7 +24060,7 @@ cut both traces. </text>
 <pinref part="U2" gate="G$1" pin="CAP"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="205.74" x2="302.26" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="314.96" y1="208.28" x2="302.26" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="208.28" x2="302.26" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!MAG_CS!" class="0">
