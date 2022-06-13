@@ -142,7 +142,6 @@
 <layer number="159" name="Geh-Bear2" color="1" fill="7" visible="no" active="no"/>
 <layer number="160" name="Topologie" color="9" fill="1" visible="no" active="no"/>
 <layer number="161" name="tomplace2" color="7" fill="1" visible="no" active="no"/>
-<layer number="162" name="Reference2" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="166" name="AntennaArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="168" name="4mmHeightArea" color="7" fill="1" visible="no" active="no"/>
 <layer number="191" name="mNets" color="7" fill="1" visible="no" active="no"/>
@@ -239,39 +238,6 @@
 <circle x="12.4079" y="11.18235" radius="0.127" width="0.254" layer="22"/>
 <circle x="12.4079" y="11.18235" radius="0.5334" width="0.254" layer="22"/>
 <text x="11.557" y="-20.447" size="1.778" layer="51" font="vector">Elias Santistevan</text>
-<wire x1="0" y1="0" x2="0" y2="25.4" width="0.1524" layer="49"/>
-<wire x1="0" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="49"/>
-<wire x1="25.4" y1="25.4" x2="25.4" y2="0" width="0.1524" layer="49"/>
-<wire x1="25.4" y1="0" x2="0" y2="0" width="0.1524" layer="49"/>
-<circle x="2.54" y="22.86" radius="1.524" width="0.0254" layer="49"/>
-<circle x="22.86" y="22.86" radius="1.524" width="0.0254" layer="49"/>
-<circle x="22.86" y="2.54" radius="1.524" width="0.0254" layer="49"/>
-<circle x="2.54" y="2.54" radius="1.524" width="0.0254" layer="49"/>
-<circle x="6.35" y="1.27" radius="0.9325625" width="0.0254" layer="49"/>
-<circle x="8.89" y="1.27" radius="0.9325625" width="0.0254" layer="49"/>
-<circle x="11.43" y="1.27" radius="0.9325625" width="0.0254" layer="49"/>
-<circle x="13.97" y="1.27" radius="0.9325625" width="0.0254" layer="49"/>
-<circle x="16.51" y="1.27" radius="0.9325625" width="0.0254" layer="49"/>
-<circle x="19.05" y="1.27" radius="0.9325625" width="0.0254" layer="49"/>
-<circle x="16.51" y="24.13" radius="0.9325625" width="0.0254" layer="49"/>
-<circle x="13.97" y="24.13" radius="0.9325625" width="0.0254" layer="49"/>
-<circle x="11.43" y="24.13" radius="0.9325625" width="0.0254" layer="49"/>
-<circle x="8.89" y="24.13" radius="0.9325625" width="0.0254" layer="49"/>
-<text x="6.35" y="0" size="1.778" layer="49" rot="R90" align="center-right">GND</text>
-<text x="8.89" y="0" size="1.778" layer="49" rot="R90" align="center-right">3V3</text>
-<text x="11.43" y="0" size="1.778" layer="49" rot="R90" align="center-right">SDA/PICO</text>
-<text x="13.97" y="0" size="1.778" layer="49" rot="R90" align="center-right">SLC</text>
-<text x="16.51" y="0" size="1.778" layer="49" rot="R90" align="center-right">ISM_CS</text>
-<text x="19.05" y="0" size="1.778" layer="49" rot="R90" align="center-right">POCI/SA0</text>
-<text x="11.43" y="25.4" size="1.778" layer="49" rot="R270" align="center-right">MAG_INT</text>
-<text x="6.35" y="25.4" size="1.778" layer="49" rot="R270" align="center-right">ISM_INT1</text>
-<text x="13.97" y="25.4" size="1.778" layer="49" rot="R270" align="center-right">MAG_CS</text>
-<text x="16.51" y="25.4" size="1.778" layer="49" rot="R270" align="center-right">SDX</text>
-<text x="1.27" y="11.43" size="1.016" layer="49">ISM330DHCX-MMC5983MA_9dof</text>
-<circle x="6.35" y="24.13" radius="0.9325625" width="0.0254" layer="49"/>
-<circle x="19.05" y="24.13" radius="0.9325625" width="0.0254" layer="49"/>
-<text x="8.89" y="25.4" size="1.778" layer="49" rot="R270" align="center-right">ISM_INT2</text>
-<text x="19.05" y="25.4" size="1.778" layer="49" rot="R270" align="center-right">SCX</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
