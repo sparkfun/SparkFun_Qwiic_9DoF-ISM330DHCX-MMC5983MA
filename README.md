@@ -1,12 +1,16 @@
 # SparkFun_Qwiic_9DoF-ISM330DHCX-MMC5983MA
 ========================================
 
-[![SparkFun_Qwiic_9DoF-ISM330DHCX-MMC5983MA](URL for picture of part)](https://www.sparkfun.com/products/19895)
+[![SparkFun_Qwiic_9DoF-ISM330DHCX-MMC5983MA](https://cdn.sparkfun.com/assets/parts/1/9/6/1/5/19895_Diag.jpg)](https://www.sparkfun.com/products/19895)
 
 [*SparkFun_Qwiic_9DoF-ISM330DHCX-MMC5983MA (19895)*](https://www.sparkfun.com/products/19895)
 
-<Basic description of the part.>
+The SparkFun 9DoF IMU Breakout - ISM330DHCX, MMC5983MA (Qwiic) combines the high-performance ISM330DHCX 3D digital accelerometer and gyroscope from STMicroelectronics with the highly sensitive triple-axis magnetometer by MEMSIC to give you an ultra powerful, easy to use, Qwiic enabled breakout board. 
 
+With a full scale acceleration range of ±2/±4/±8/±16 g and a wide angular rate range of ±125/±250/±500/±1000/±2000/±4000 dps, as well as an unmatched set of embedded features (Machine Learning Core, programmable FSM, FIFO, sensor hub, event decoding and interrupts), the ISM330DHCX delivers high performance at very low power. Add to that the MMC5983MA, which can measure magnetic fields within the full scale range of &#177;8 Gauss (G), with 0.25mG/0.0625mG per LSB resolution at 16bits/18bits operation mode and 0.4 mG total RMS noise level and you've got 9 Degrees of Freedom on one tiny little breakout board. 
+
+Utilizing our handy Qwiic system, no soldering is required to connect it to the rest of your system. However, we still have broken out 0.1"-spaced pins in case you prefer to use a breadboard.  
+  
 Repository Contents
 -------------------
 
