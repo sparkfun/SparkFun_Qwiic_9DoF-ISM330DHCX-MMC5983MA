@@ -1,4 +1,4 @@
-# SparkFun_Qwiic_9DoF-ISM330DHCX-MMC5983MA
+SparkFun Qwiic 9DoF ISM330DHCX, MMC5983MA
 ========================================
 
 [![SparkFun_Qwiic_9DoF-ISM330DHCX-MMC5983MA](https://cdn.sparkfun.com/assets/parts/1/9/6/1/5/19895_Diag.jpg)](https://www.sparkfun.com/products/19895)
@@ -20,9 +20,10 @@ Repository Contents
 
 Documentation
 --------------
+
 * **[6DoF ISM330DHCX Library](https://github.com/sparkfun/SparkFun_6DoF_ISM330DHCX_Arduino_Library)** - Arduino library for the SparkFun Qwiic 6DoF ISM330DHCX.
 * **[MMC5983MA Magnetometer Library](https://github.com/sparkfun/SparkFun_MMC5983MA_Magnetometer_Arduino_Library)** - Arduino library for the SparkFun Qwiic MMC5983MA Magnetometer.
-* **[Hookup Guide](https://sparkle.sparkfun.com/sparkle/learn_tutorials/2616)** - Basic hookup guide for the SparkFun Qwiic 9DoF-ISM330DHCX-MMC5983MA.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/2616)** - Basic hookup guide for the SparkFun Qwiic 9DoF-ISM330DHCX-MMC5983MA.
 
 License Information
 -------------------
